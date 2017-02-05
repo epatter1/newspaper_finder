@@ -10,6 +10,8 @@ import android.os.Handler;
 
 import com.example.android.newspaperfinder.MainActivity;
 
+import info.androidhive.androidsplashscreentimer.R;
+
 public class SplashScreen extends Activity {
 
     // Splash screen timer
@@ -18,7 +20,7 @@ public class SplashScreen extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.splash_screen);
 
         new Handler().postDelayed(new Runnable() {
 

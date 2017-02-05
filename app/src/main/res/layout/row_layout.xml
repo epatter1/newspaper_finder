@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/tview_style"
+        android:layout_alignParentLeft="true"
+        android:text="Style"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/tview_details"
+        android:layout_toRightOf="@id/tview_style"
+        android:text="Details"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/tview_latitude"
+        android:layout_toRightOf="@id/tview_details"
+        android:text="Latitude"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/tview_longitude"
+        android:layout_toRightOf="@id/tview_latitude"
+        android:text="Latitude"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+</RelativeLayout>
